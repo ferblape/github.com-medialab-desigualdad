@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Github.com y Git - Medialab Prado</title>
+
+    <meta name="description" content="Cómo publicar los datos y el código de nuestro proyectos en Github.com">
+    <meta name="author" content="Fernando Blat">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+      <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+        <section>
+          <h1>Github.com y Git</h1>
+          <h3>Cómo publicar los datos y el código de nuestro proyectos</h3>
+          <br><br>
+          <p>
+            Fernando Blat // <a href="http://twitter.com/ferblape">@ferblape</a>
+          </p>
+          <p>
+            <img src="https://dl.dropboxusercontent.com/u/659167/Logo_Populate_Simple.png" width="300" alt="Populate" style="border:0px" />
+          </p>
+        </section>
+
+        <section>
+          <h2>Coordinador técnico</h2>
+          <p><a href="http://medialab-prado.es/article/convocatoria-explorando-desigualdad">http://medialab-prado.es/article/convocatoria-explorando-desigualdad</a></p>
+          <p>
+            <img src="images/coordinador.png" alt="Coordinador técnico" style="border:0px" />
+          </p>
+        </section>
+
+        <section>
+          <h2>Asistencia técnica</h2>
+          <ul>
+            <li>Preguntas sobre tecnología</li>
+            <li>Herramientas de scrapping</li>
+            <li>Herramientas para limpiar datos</li>
+            <li>...</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>¿Qué es Github.com?</h2>
+        </section>
+
+        <section data-background="images/github-home.png">
+        </section>
+
+        <section>
+          <h2>¿Qué es Github.com?</h2>
+          <blockquote cite="http://github.com">Powerful <strong>collaboration</strong>, code review, and <strong>code management</strong> for
+<strong>open source and private projects</strong>. Public projects are always free.</blockquote>
+          <p class="fragment">Y datos...</p>
+        </section>
+
+        <section>
+          <h2>Tres ejemplos</h2>
+
+          <p><a href="https://github.com/idescat/visual" target="blank">idescat/visual</a></p>
+          <p><a href="https://github.com/GSA/data" target="blank">GSA/data</a></p>
+          <p><a href="https://github.com/aragonopendata/Poolparty" target="blank">aragonopendata/Poolparty</a></p>
+        </section>
+
+        <section>
+          <h2>¿Qué es Github.com?</h2>
+          <p>Una herramienta de colaboración para proyectos de colaboración y una plataforma de distribución</p>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+          // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+
+  </body>
+</html>
