@@ -35,7 +35,6 @@
   </head>
 
   <body>
-
     <div class="reveal">
 
       <div class="slides">
@@ -65,12 +64,13 @@
             <li>Preguntas sobre tecnología</li>
             <li>Herramientas de scrapping</li>
             <li>Herramientas para limpiar datos</li>
+            <li>Publicación de los trabajos</li>
             <li>...</li>
           </ul>
         </section>
 
         <section>
-          <h2>¿Qué es Github.com?</h2>
+          <h1>¿Qué es Github.com?</h1>
         </section>
 
         <section data-background="images/github-home.png">
@@ -81,6 +81,7 @@
           <blockquote cite="http://github.com">Powerful <strong>collaboration</strong>, code review, and <strong>code management</strong> for
 <strong>open source and private projects</strong>. Public projects are always free.</blockquote>
           <p class="fragment">Y datos...</p>
+          <p class="fragment">Y presentaciones...</p>
         </section>
 
         <section>
@@ -93,9 +94,150 @@
 
         <section>
           <h2>¿Qué es Github.com?</h2>
-          <p>Una herramienta de colaboración para proyectos de colaboración y una plataforma de distribución</p>
+          <p>Una herramienta colaborativa para crear y difundir proyectos de programación e información digital</p>
         </section>
 
+        <section>
+          <h2>Colaborativa</h2>
+          <p>Los proyectos de Github se llaman <strong>repositorios</strong></p>
+          <p>Un repositorio pertenece a una persona</p>
+          <p>Los repositorios se pueden clonar, modificar, y volver a unificar</p>
+        </section>
+
+        <section>
+          <h2>Colaborativa</h2>
+          <p>Varios clones de un mismo proyecto</p>
+          <p>Un proyecto se clona para ser modificado</p>
+          <p>Se puede solicitar la re-unificación</p>
+        </section>
+
+        <section style="text-align:left">
+          <h2>Ejemplo de colaboración</h2>
+          <p>Carmen y Manuel trabajan en un proyecto de periodismo de datos.</p>
+          <p>Deciden guardar sus CSVs en un repositorio de Github:</p>
+          <ul>
+            <li><code>datos/municipios.csv</code></li>
+            <li><code>datos/candidatos.csv</code></li>
+            <li><code>datos/propuestas.csv</code></li>
+          </ul>
+        </section>
+
+        <section style="text-align:left">
+          <h2>Ejemplo de colaboración</h2>
+          <p>Carmen trabaja en asegurarse que el nombre de los municipios en las tres tablas sea correcto:
+            <code>municipios.csv, candidatos.csv, propuestas.csv</code>
+          </p>
+          <br>
+
+          <p>Manuel trabaja en los datos de las propuestas electorales: <code>propuestas.csv</code></p>
+        </section>
+
+        <section>
+          <h1>Guía para subir repositorios a Github</h1>
+        </section>
+
+        <section>
+          <h2>https://desktop.github.com/</h2>
+        </section>
+
+        <section>
+          <h2>Elementos de un proyecto</h2>
+          <ul>
+            <li>Directorios y ficheros</li>
+            <li>Fichero <code>README.md</code></li>
+            <li>Fichero <code>LICENSE</code></li>
+            <li>Cualquier otro meta-fichero que pueda ser útil</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Fichero README.md</h2>
+
+          <p>La extensión <code>.md</code> viene del lenguaje <a href="https://daringfireball.net/projects/markdown/basics">Markdown</a></p>
+          <p>Markdown es un formato ligero de texto plano pensado para ser convertido a HTML sin perder legibilidad</p>
+        </section>
+
+        <section data-markdown  style="text-align: left;">
+          <script type="text/template">
+          ### Esto es un titular
+
+          Esto es un texto con **negrita**, _cursiva_, [y un enlace](http://github.com)
+
+          Esto es otro párrafo
+
+          - Esto es
+          - una lista
+          - de varios elementos
+          </script>
+        </section>
+
+        <section>
+<pre>
+&lt;h2&gt;Esto es un titular&lt;/h2&gt;
+
+&lt;p&gt;Esto es un texto con &lt;strong&gt;negrita&lt;/strong&gt;, &lt;em&gt;cursiva&lt;/em&gt;, &lt;a href=&quot;http://github.com&quot;&gt;y un enlace&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Esto es otro párrafo&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Esto es&lt;/li&gt;
+  &lt;li&gt;una lista&lt;/li&gt;
+  &lt;li&gt;de varios elementos&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+        </section>
+
+        <section>
+<pre>
+### Esto es un titular
+
+Esto es un texto con **negrita**, _cursiva_, [y un enlace](http://github.com)
+
+Esto es otro párrafo
+
+- Esto es
+- una lista
+- de varios elementos
+</pre>
+        </section>
+
+        <section style="text-align: left;">
+          <h2>Resumen Markdown</h2>
+          <p><strong>Titulares</strong>: <code>#, ##, ###, ####</code></p>
+          <p><strong>Negritas</strong>: <code>**negrita**</code></p>
+          <p><strong>Cursivas</strong>: <code>_cursivas_</code></p>
+          <p><strong>Enlaces</strong>: <code>[y un enlace](http://github.com)</code></p>
+          <p><strong>Listas</strong>: <code>- elementos de la lista</code></p>
+
+          <br>
+          <p>Más información: <a href="https://daringfireball.net/projects/markdown/basics">Markdown</a></p>
+        </section>
+
+        <section>
+          <h2>Licencias</h2>
+          <p>Crear un fichero <code>LICENSE</code></p>
+          <p>Copiar el contenido de la licencia en él. Por ejemplo: <a href="http://es.creativecommons.org/blog/licencias/">Creative Commons</a></p>
+        </section>
+
+        <section>
+          <h1>¡Gracias!</h1>
+
+          <h4>¿Preguntas?</h4>
+          <br>
+          <br>
+          <p>
+            <a href="http://ferblape.github.io/github.com-medialab-desigualdad">http://ferblape.github.io/github.com-medialab-desigualdad</a></p>
+        </section>
+
+ 
+        <section data-markdown  style="text-align: left;">
+          <script type="text/template">
+            ## Fuente de las imágenes
+
+            - https://backlogtool.com/
+            - https://github.com
+          </script>
+        </section>
       </div>
     </div>
 
@@ -113,7 +255,7 @@
 
         transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-          // Optional reveal.js plugins
+        // Optional reveal.js plugins
         dependencies: [
           { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
